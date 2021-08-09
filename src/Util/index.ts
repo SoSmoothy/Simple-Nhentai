@@ -1,0 +1,1 @@
+export { getHtml } from "./getHtml";

@@ -1,0 +1,40 @@
+{
+  "name": "simple-nhentai",
+  "version": "1.0.0",
+  "description": "Simple And Easy To Use",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonicname/Simple-Nhentai.git"
+  },
+  "keywords": [
+    "nhentai",
+    "nsfw",
+    "nhentai-api",
+    "nsfw-api"
+  ],
+  "author": "SoSmoothy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonicname/Simple-Nhentai/issues"
+  },
+  "homepage": "https://github.com/sonicname/Simple-Nhentai#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^2.6.1"
+  }
+}
