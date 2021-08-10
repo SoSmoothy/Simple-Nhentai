@@ -23,11 +23,13 @@ export const getHtml: IGetHtml = async (url): Promise<string> => {
         })
             .then(res => {
                 if(res.status !== 200){
-                    reject(`Failed: request status code ${res.status}`);
+                    throw new Error("Request failed: " + res.status);
                 } else {
                     resolve(res.data);
                 }
             })
-            .catch(err => reject(err))
+            .catch(err => {
+                throw new Error("Request failed because your internet or ID manga (URL manga) not exists!");
+            })
     }))
 }

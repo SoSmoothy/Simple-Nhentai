@@ -4,10 +4,10 @@
 * Simple
 * Get all info you need
 
-#Install:
+### Install:
 ``npm i simple-nhentai --save``
 
-#Usage:
+### Usage:
 
         const nhentaiApi = require("simple-nhentai").default;
         

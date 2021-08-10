@@ -1,6 +1,6 @@
 {
   "name": "simple-nhentai",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple And Easy To Use",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -34,7 +34,6 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.10",
-    "node-fetch": "^2.6.1"
+    "cheerio": "^1.0.0-rc.10"
   }
 }
