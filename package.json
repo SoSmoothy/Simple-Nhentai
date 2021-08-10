@@ -1,6 +1,6 @@
 {
   "name": "simple-nhentai",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Simple And Easy To Use",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

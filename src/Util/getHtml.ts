@@ -28,6 +28,8 @@ export const getHtml: IGetHtml = async (url): Promise<string> => {
                     resolve(res.data);
                 }
             })
-            .catch(err => reject(err))
+            .catch(err => {
+                throw new Error("Request Failed!");
+            })
     }))
 }
