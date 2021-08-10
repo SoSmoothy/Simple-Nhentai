@@ -1,5 +1,5 @@
 import cheerio from "cheerio";
-import {Manga, UrlImage} from "../Nhentai/Interface";
+import {Manga, UrlImage} from "../Interface";
 
 export const parseHtml = (html: string, url: string):Manga => {
     const $ = cheerio.load(html);
